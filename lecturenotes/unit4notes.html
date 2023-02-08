@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 4 Notes</title>
+        <style>
+            td, th { border: 1px solid black}
+        </style>
+
+    </head>
+    <body>
+        <h1>Tables and Forms Day</h1>
+        <h2>Tables</h2>
+            <table>
+                <caption>World Population</caption>
+                <tr></tr>
+                    <th>Country</th>
+                    <th>Population</th>
+                    <th>% of World Population</th>
+                <tr></tr>
+                    <td>China</td>
+                    <td>1,403,830,640</td>
+                    <td>18.0%</td>
+                <tr></tr>
+                    <td>India</td>
+                    <td>1,365,529,124</td>
+                    <td>17.5%</td>
+            </table>
+        <h2>Forms</h2>
+            <!-- Action- page that processes form
+            Method = how data is sent (in url or on header)-->
+            <form action=""method="post">
+                <p>This form is going to be for takeout orders.</p>
+                <!-- The fullname needs to match-->
+                <label for="fullname">Full Name:</label>
+                <input type = "text" id = "fullname" name = "fullname">
+                <br>
+                <label for="items">Items</label>
+                <textarea id="items" name="items" rows="3" columns="50"></textarea>
+                <br>
+                <input type="radio" id="pickup" name="pickupdelivery" value="pickup">
+                <label for="pickup">Pick Up</label>
+                <!-- if you do not match the name, the buttons will not be linked and you will be able to select both radio buttons-->
+                <input type ="radio" id="delivery" name="pickupdelivery" value = "delivery">
+                <label for="delivery">delivery</label>
+                <br>
+                <input type="checkbox" id="extrasauce" name="extrasauce" value="yes">
+                <label for="extrasauce">Extra Sauce</label>
+                <br>
+                <label for="location">Location</label>
+                <select id="location" name = "location">
+                    <!--Blank option is to choose no location if you are selecting pickup-->
+                    <option></option>
+                    <option value="westcott">Westcott</option>
+                    <option value ="downtown">Downtown</option>
+                    <option value="eastwood">Eastwood</option>
+
+
+                </select>
+                <br>
+                <input type = "submit" value="place order">
+                <label for="orderdate">Order Date:</label>
+                <input type="date" id="orderdate" name="orderdate">
+                <input type="submit" value="placeorder">
+
+
+            </form>
+
+
+    </body>
+</html>
