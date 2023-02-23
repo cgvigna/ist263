@@ -1,0 +1,16 @@
+        /* p is our selector, color is property, and blueviolet is our value*/
+        p, h1 { 
+            color:blueviolet;
+            /*
+            This is font size by %- 3 times default size
+            font-size: 300%;
+            */
+
+            /* 1.5x the default size (50% bigger) */
+            font-size: 1.5em;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+        }
+        p a {color:aqua;}
+        #firstlink {color:chartreuse}
+        .redtext {color:red}
