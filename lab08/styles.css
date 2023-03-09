@@ -1,0 +1,52 @@
+body { 
+    color: #0c00f5;
+    background-color: #e6ceff;
+}
+h1{
+
+    color:#000b84
+}
+.links{
+    color: #000a94;
+}
+
+.nav{
+    background-color: #ffffff;
+    padding: 10px;
+    
+}
+
+nav a {
+    color: #000000;
+    margin-bottom: 30px;
+    
+}
+
+nav a:hover {background-color: #4f72ff;}
+
+.left{float:left;}
+.right{float:right;}
+
+div{         
+    margin:20px;
+    border-radius: 1em;
+    background-color: #ffffff;
+   }
+
+   .row2, .row1{border-top:1px solid #7554fa;}
+
+   .row1 div{
+    flex:1; /*This is the size of the column*/
+   }
+
+
+   .col3{float:left;}
+   .col4{float:right;}
+   .col2, .col3{flex:2;}
+   .row1, .row2{
+    display: flex; 
+    /*This tells browser we have a row. Automatically it makes row1 a row and all the children become columns in that row*/
+}
+
+
+
