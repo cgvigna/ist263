@@ -39,7 +39,8 @@ div{
     flex:1; /*This is the size of the column*/
    }
 
-
+   .col1{float:left;}
+   .col2{float:right;}
    .col3{float:left;}
    .col4{float:right;}
    .col2, .col3{flex:2;}
