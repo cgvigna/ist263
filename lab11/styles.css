@@ -3,6 +3,8 @@ body {
     background-color: #e6ceff;
     margin:20px;
     padding:5px;
+    font-size: 1em;
+
 }
 h1{
 
@@ -92,7 +94,6 @@ body{
 
 p{
     padding: 5px;
-    font-size:large;
 }
 
 .headerimage{
@@ -106,6 +107,20 @@ p{
     span{
         display:none;
     }
+}
+
+.skip{
+    background-color: #a7aef0;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    position:absolute; /*positions element relative to top left of viewport.*/
+    top: 10px;
+    left: -999px; /*push it off the left side*/
+}
+
+.skip:focus{
+    left: 10px; /*This brings the skip to content button back on the screen when someone tabs to it*/
 }
 
 
