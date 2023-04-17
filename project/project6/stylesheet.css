@@ -6,9 +6,13 @@ nav{
     display:flex;
     justify-content: flex-end;
     justify-content: space-around;
+    padding:5px;
+
 }
 nav div{
-    padding:5px;
+    padding:15px;
+    border-radius: 1em;
+    margin:20px;
 }
 
 nav a:hover {background-color: #7c98d4;}
@@ -88,11 +92,12 @@ header{
 
     div{         
         margin:20px;
-
-        background-color: #ffffff;
        }
+    .breeds div{
+        background-color: #ffffff;
+    }
 
-h2 div{
+.header1, .header2{
     display:flex;
     border-radius: 1em;
     background-color: #7c98d4;
@@ -101,8 +106,19 @@ h2 div{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-            
 }
+
+.bottom{
+    display:flex;
+    border-radius: 1em;
+    background-color: #7c98d4;
+    margin:30px;
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 
 
 
