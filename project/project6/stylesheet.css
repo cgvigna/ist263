@@ -13,6 +13,7 @@ nav div{
     padding:15px;
     border-radius: 1em;
     margin:20px;
+    background-color: #ffffff;
 }
 
 nav a:hover {background-color: #7c98d4;}
