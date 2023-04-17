@@ -1,0 +1,135 @@
+
+
+nav{
+    padding: 10px;
+    color: #ffffff;
+    display:flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+}
+nav div{
+    padding:5px;
+}
+
+nav a:hover {background-color: #7c98d4;}
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 400px;
+    height: auto;
+  }
+
+.logoimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 300px;
+    height:auto;
+    
+}
+
+  h1 {text-align: center;
+background-color: #7c98d4;}
+
+  body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: #dcdef8;
+  }
+
+header{
+    background-image: url(../images/paws.jpeg);
+   
+}
+
+.breeds img{
+    width: auto;
+    height: 250px;
+}
+
+
+.row1{
+    display:flex; 
+    padding: 5px;
+    margin: 30px;
+    background-image: url(../images/paws.jpeg);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    /*This tells browser we have a row. Automatically it makes row1 a row and all the children become columns in that row*/
+}
+.row1 div{
+    flex:1; /*This is the size of the column*/
+    padding: 10px;
+   }
+   .col1{
+    float:left;
+    flex:1;
+    padding: 10px;
+}
+   .col2{
+    float:right;
+    flex: 1;
+    padding: 10px;}
+
+    div{         
+        margin:20px;
+
+        background-color: #ffffff;
+       }
+
+h2 div{
+    display:flex;
+    border-radius: 1em;
+    background-color: #7c98d4;
+    margin:30px;
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+            
+}
+
+
+
+.video{
+    /*content can not take up full width of the screen, will keep block level element 100% of screen*/
+    display:flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 800px){
+    nav a{
+        display: block;
+    }
+    span{
+        display:none;
+    }
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
