@@ -66,4 +66,7 @@ body{
     left: 10px; /*This brings the skip to content button back on the screen when someone tabs to it*/
 }
 
+p{
+    max-width: 94%;
+}
 
