@@ -1,0 +1,156 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dcdef8;
+    margin: 5px;
+
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 30px;
+    padding: 10px;
+
+  }
+  
+  .col {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 5px;
+  }
+  
+  @media (max-width: 767px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+
+
+  nav{
+    padding: 10px;
+    color: #ffffff;
+    display:flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    padding:5px;
+
+}
+
+nav div{
+    padding:15px;
+    border-radius: 1em;
+    margin:20px;
+    background-color: #ffffff;
+}
+
+nav a:hover {background-color: #7c98d4;}
+
+a:visited {
+    color: black;
+  }
+
+.logoimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {text-align: center;
+    background-color: #7c98d4;}
+
+body{
+        color: black;
+        background-color: #dcdef8;
+        font-family: 'Raleway', sans-serif;
+      }
+
+header{
+    background-image: url(../images/paws.jpeg);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ .container div{
+    background-color: #7c98d4;
+    border-radius: 1em;
+}
+
+.header1, .header2{
+    display: flex;
+    border-radius: 1em;
+    background-color: #88a5e4;
+    margin:30px;
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom{
+    display:flex;
+    border-radius: 1em;
+    background-color: #88a5e4;
+    margin:30px;
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.video{
+    display:flex;
+    justify-content: center;
+}
+
+ul{
+    font-size: larger;
+}
+
+.container p{
+    background-color: #ffffff;
+    border-radius: 1em;
+    padding: 10px;
+    font-size: larger;
+}
+
+.container span{
+    font-size: larger;
+    background-color: #ffffff;
+    border-radius: 1em;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+}
+
+.skip{
+    background-color: #320eff;
+    padding: 5px;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    position:absolute; /*positions element relative to top left of viewport.*/
+    top: 10px;
+    left: -999px; /*push it off the left side*/
+    color: #ffffff;
+}
+
+.skip:focus{
+    left: 10px; /*This brings the skip to content button back on the screen when someone tabs to it*/
+}
+
+
+
+
+  

@@ -1,0 +1,101 @@
+.container, .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dcdef8;
+    
+
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 30px;
+    justify-content: end;
+    
+  }
+  
+  .col {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+
+  }
+  
+  @media (max-width: 767px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+
+
+
+  nav{
+    padding: 10px;
+    color: #ffffff;
+    display:flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    padding:5px;
+
+}
+
+nav div{
+    padding:15px;
+    border-radius: 1em;
+    margin:20px;
+    background-color: #ffffff;
+}
+
+nav a:hover {background-color: #7c98d4;}
+
+a:visited {
+    color: black;
+  }
+
+.logoimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {text-align: center;
+    background-color: #7c98d4;}
+
+body{
+        color: black;
+        background-color: #dcdef8;
+        font-family: 'Raleway', sans-serif;
+      }
+
+header{
+    background-image: url(../images/paws.jpeg);
+}
+
+h2{
+    border-radius: 1em;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.container img, .container2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skip{
+    background-color: #320eff;
+    padding: 5px;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    position:absolute; /*positions element relative to top left of viewport.*/
+    top: 10px;
+    left: -999px; /*push it off the left side*/
+    color: #ffffff;
+}
+
+.skip:focus{
+    left: 10px; /*This brings the skip to content button back on the screen when someone tabs to it*/
+}
+

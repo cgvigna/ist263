@@ -1,0 +1,69 @@
+h1{
+ text-align: center;
+background-color: #7c98d4;
+}
+
+nav{
+    padding: 10px;
+    color: #ffffff;
+    display:flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    padding:5px;
+
+}
+
+nav div{
+    padding:15px;
+    border-radius: 1em;
+    margin:20px;
+    background-color: #ffffff;
+}
+
+nav a:hover {background-color: #7c98d4;}
+
+a:visited {
+    color: black;
+  }
+
+.logoimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-image: url(../images/paws.jpeg);
+}
+
+.header1{
+    display: flex;
+    border-radius: 1em;
+    background-color: #88a5e4;
+    margin:30px;
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: #dcdef8;
+    font-family: 'Raleway', sans-serif;
+}
+
+.skip{
+    background-color: #320eff;
+    padding: 5px;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+    position:absolute; /*positions element relative to top left of viewport.*/
+    top: 10px;
+    left: -999px; /*push it off the left side*/
+    color: #ffffff;
+}
+
+.skip:focus{
+    left: 10px; /*This brings the skip to content button back on the screen when someone tabs to it*/
+}
+
+
